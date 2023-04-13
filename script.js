@@ -8,8 +8,13 @@ const peopleInput = document.getElementById("people-input");
 const billInput = document.getElementById("bill-input");
 const tipPercent = document.querySelectorAll(".btn");
 
+/* 
+This is the block that all the bill and people inputs
+are declared.
+*/
 billInput.addEventListener("input", billInputFun);
 peopleInput.addEventListener("input", peopleInputFun);
+
 tipPercent.forEach(function(val) {
     val.addEventListener("click", handleClick);
 });
@@ -25,9 +30,23 @@ function peopleInputFun () {
 }
 
 function handleClick () {
-    
+
 }
 
+// All tips percentages
+tipPercent.forEach((tips) => {
+    tips.addEventListener("click", function(e) {
+        let tipvalue = e.target.innerText;
+        tipvalue = tipvalue.substr(0, tipvalue.length -1);
+        
+        console.log("tip value: " + tipvalue);
+    });
+    
+});
+
+
+
+// Resets all Inputs
 reset.addEventListener("click", function(){
     resultAmount.innerHTML = "0.00";
     resultTotal.innerHTML = "0.00";
