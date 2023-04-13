@@ -23,10 +23,9 @@ main {
   flex-direction: column;
 }
 
-h1{
+h1 {
   font-size: 1.3rem;
 }
-
 
 .mainContainer {
   display: grid;
@@ -103,7 +102,7 @@ ul.tipsPercent {
   background-color: aquamarine;
 }
 
-.reset{
+.reset {
   padding: 15px;
   font-weight: 700;
   background-color: var(--Strongcyan);
@@ -113,42 +112,39 @@ ul.tipsPercent {
   cursor: pointer;
 }
 
-.reset:hover{
+.reset:hover {
   background-color: var(--Verylightgrayishcyan);
 }
 
-.amount{
+.amount {
   font-size: 1.2rem;
 }
 
-.firstTip{
+.firstTip {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 60px ;
+  margin-bottom: 60px;
 }
 
 .secondTip {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.total{
+.total {
   font-size: 2.5rem;
   color: var(--Strongcyan);
 }
 
-.perPerson{
+.perPerson {
   color: var(--Darkgrayishcyan);
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
-
-
 /* Forms */
-.forms{
+.forms {
   background-color: var(--custom);
   border: none;
   width: 95%;
@@ -159,12 +155,9 @@ ul.tipsPercent {
   font-family: "Space Mono", monospace;
 }
 
-.forms:focus{
+.forms:focus {
   border: red;
 }
-
-
-
 
 /* Root */
 :root {
