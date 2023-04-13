@@ -4,7 +4,7 @@
 This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ### Screenshot
-<img width="858" alt="image" src="https://user-images.githubusercontent.com/117322790/231840756-0a07c167-102e-4390-a2d4-253a48112fa7.png">
+<img width="858" alt="image" src="./images/TipCalc.png">
 
 
 ### The challenge
