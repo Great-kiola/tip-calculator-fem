@@ -87,6 +87,12 @@ ul.tipsPercent {
 #custom {
   background-color: hsl(185, 41%, 90%);
   color: var(--Darkgrayishcyan);
+  text-align: center;
+}
+
+#custom:focus{
+  outline: none;
+  background-color: hsl(185, 41%, 90%) !important;
 }
 
 #fiftn {
