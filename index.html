@@ -20,30 +20,28 @@
     <div class="mainContainer">
       <div class="container">
         <div class="bill">
-          <h1> Bill </h1>
-          <form aria-label="bill-form" role = "form">
-            <input type="number" id="bill-input" class="forms" />
+          <form aria-label="bill-form" role="form">
+            <label for="bill-input"> Bill </label>
+            <input type="number" id="bill-input" class="forms" placeholder="0" />
           </form>
         </div>
 
         <div class="tips">
-          <h1>Select Tip %</h1>
+          <label for="tipp"> Select Tip % </label>
 
-          <ul class="tipsPercent">
-            <li><button class="btn"> 5% </button></li>
-            <li> <button class="btn"> 10% </button></li>
-            <li><button id="fiftn" class="btn"> 15%</button></li>
-            <li><button class="btn"> 25% </li>
-            <li><button class="btn"> 50% </button></li>
-            <li><input type="number" id="custom" class="btn" placeholder="Custom"/> </li>
-          </ul>
+          <div class="tipsPercent" id="tipp">
+            <button class="btn"> 5% </button>
+            <button class="btn"> 10% </button>
+            <button id="fiftn" class="btn"> 15%</button>
+            <button class="btn"> 25% </button>
+            <button class="btn"> 50% </button>
+            <input type="number" id="custom" class="btn" placeholder="Custom" />
+          </div>
         </div>
 
         <div class="people">
-          <h1>Number of People</h1>
-          <form aria-label="people" role = "form">
-            <input type="number" id="people-input" class="forms" />
-          </form>
+          <label for="people-input">Number of People</label>
+          <input type="number" id="people-input" class="forms" placeholder="0" />
         </div>
 
       </div>
@@ -53,19 +51,19 @@
         <div class="amount">
           <div class="firstTip">
             <ul class="tipAmnt">
-              <li >Tip Amount</li>
+              <li>Tip Amount</li>
               <li class="perPerson">/ person</li>
             </ul>
-            <h2 class="total"> $4.27</h2>
+            <h2 class="total"> $<span id="resultAmnt">4.27 </span></h2>
           </div>
 
-          <div class="secondTip"> 
+          <div class="secondTip">
             <ul>
               <li>Total</li>
               <li class="perPerson">/ person</li>
             </ul>
 
-            <h2 class="total"> $32.79</h2>
+            <h2 class="total"> $<span id="resultTotal">327.89 </span></h2>
           </div>
 
 
