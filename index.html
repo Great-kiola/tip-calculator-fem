@@ -1,39 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
+
   <title>Frontend Mentor | Tip calculator app</title>
 
 </head>
+
 <body>
 
   <main>
+    <img class="img" src="./images/logo.svg" alt="site logo" />
     <div class="mainContainer">
-      
-      Bill
+      <div class="container">
+        <div class="bill">
+          <h1> Bill </h1>
+          <form role = "form">
+            <img src="./images/icon-dollar.svg" class="dollar" alt="#" /><input class="forms" type ="text"/>
+          </form>
+        </div>
 
-      Select Tip %
-      5%
-      10%
-      15%
-      25%
-      50%
-      Custom
+        <div class="tips">
+          <h1>Select Tip %</h1>
 
-      Number of People
+          <ul class="tipsPercent">
+            <li><button class="btn"> 5% </button></li>
+            <li> <button class="btn"> 10% </button></li>
+            <li><button id="fiftn" class="btn"> 15%</button></li>
+            <li><button class="btn"> 25% </li>
+            <li><button class="btn"> 50% </button></li>
+            <li> <button id="custom" class="btn"> Custom</button></li>
+          </ul>
+        </div>
 
-      Tip Amount
-      / person
+        <div class="people">
+          <h1>Number of People</h1>
+        </div>
 
-      Total
-      / person
+      </div>
 
-      Reset
+      <div class="secondContainer">
+
+        <div class="amount">
+          <div class="firstTip">
+            <ul class="tipAmnt">
+              <li >Tip Amount</li>
+              <li class="perPerson">/ person</li>
+            </ul>
+            <h2 class="total"> $4.27</h2>
+          </div>
+
+          <div class="secondTip"> 
+            <ul>
+              <li>Total</li>
+              <li class="perPerson">/ person</li>
+            </ul>
+
+            <h2 class="total"> $32.79</h2>
+          </div>
+
+
+        </div>
+        <button id="cancel" class="reset">Reset</button>
+      </div>
 
     </div>
   </main>
@@ -42,7 +77,7 @@
 
   <footer>
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://www.frontendmentor.io/profile/Great-kiola">Kilaso Olabode</a>.
     </div>
   </footer>
@@ -50,4 +85,5 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>
