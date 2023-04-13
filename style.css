@@ -155,6 +155,25 @@ ul.tipsPercent {
   text-align: right;
   color: var(--Verydarkcyan);
   font-family: "Space Mono", monospace;
+  outline: none;
+  background-size: contain 10px;
+  background-repeat: no-repeat;
+  background-position: 15px 25px;
+  font-weight: bolder;
+}
+
+#bill-input{
+  background-image: url(./images/icon-dollar.svg);
+}
+
+#people-input{
+  background-image: url(./images/icon-person.svg);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .forms:focus {
