@@ -110,6 +110,8 @@ ul.tipsPercent {
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  text-transform: uppercase;
+
 }
 
 .reset:hover {
@@ -171,9 +173,7 @@ ul.tipsPercent {
   --custom: hsl(190, 46%, 95%);
 }
 
-.reset {
-  text-transform: uppercase;
-}
+
 
 .attribution {
   font-size: 11px;
