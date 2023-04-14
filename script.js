@@ -23,7 +23,7 @@ tips.forEach(function (val) {
   val.addEventListener("click", handleClick);
 });
 
-custom.addEventListener ("input", tipCustomFun);
+custom.addEventListener("input", tipCustomFun);
 
 let billValue = "";
 let peopleValue = "";
@@ -32,12 +32,10 @@ let tipValue = "";
 function billInputFun() {
   billValue = parseFloat(billInput.value);
   calculateTip();
-
 }
 
 function peopleInputFun() {
   peopleValue = parseFloat(peopleInput.value);
-  
 
   if (peopleValue < 1) {
     error.style.display = "flex";
@@ -47,7 +45,6 @@ function peopleInputFun() {
     peopleInput.style.border = "none";
     calculateTip();
   }
-
 }
 
 // tips percentage
@@ -60,12 +57,10 @@ function handleClick(event) {
   });
 }
 
-
-// Custom 
-function tipCustomFun(){
-    tipValue = parseFloat(custom.value /100);
-    calculateTip();
-
+// Custom
+function tipCustomFun() {
+  tipValue = parseFloat(custom.value / 100);
+  calculateTip();
 }
 
 // calculate tips
