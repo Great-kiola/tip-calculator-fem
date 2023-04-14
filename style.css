@@ -34,8 +34,9 @@ h1 {
   margin: 30px;
   padding: 40px;
   border-radius: 15px;
-  width: 900px;
+  width: 950px;
   height: 530px;
+  
 }
 
 .container {
@@ -53,6 +54,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  
 }
 
 ul {
