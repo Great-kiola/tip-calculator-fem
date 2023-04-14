@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Url](https://github.com/Great-kiola/Product-preview)
+- Solution URL: [fem Page](https://www.frontendmentor.io/solutions/tipcalculatorfem-2t3-XxQs2v)
 - Live Site URL: [Deployed Url](https://tips-calculator-fem.netlify.app/)
 
 ## My process
@@ -31,8 +31,8 @@ Users should be able to:
 ### What I learned
 This is one of the most challenging projects i have encountered in the frontend mentor catalog, As it help me tackle my weak javascript points
 I challenged myself to do the javascript aspect of the project
+some new things i learnt
 
-some New things i learnt
 - 
 ```javascript
 billInput.addEventListener("input", billInputFun);
@@ -43,7 +43,7 @@ function billInputFun() {
 
 }
 ```
-You can creat a function and go to another line to declare it
+You can create a function and go to another line to declare it
 
 - I also tried not to use jquery in this project and tried to focus on the part i dont really understand
 which is the event listeners.
