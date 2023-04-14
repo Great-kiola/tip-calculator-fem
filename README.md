@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Url](https://github.com/Great-kiola/Product-preview)
-- Live Site URL: [Deployed Url](https://spontaneous-alfajores-c3f550.netlify.app/)
+- Live Site URL: [Deployed Url](https://tips-calculator-fem.netlify.app/)
 
 ## My process
 

@@ -24,7 +24,7 @@ main {
 }
 
 h1 {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .mainContainer {
@@ -87,10 +87,10 @@ ul {
   background-color: hsl(185, 41%, 90%);
   color: var(--Darkgrayishcyan);
   text-align: center;
+  padding: 10px auto;
 }
 
 #custom:focus{
-  outline: none;
   background-color: hsl(185, 41%, 90%) !important;
 }
 
@@ -99,8 +99,11 @@ ul {
   color: var(--Verydarkcyan);
 }
 
+
+
 .btn:focus {
   background-color: var(--GrayishCyan) !important;
+  border: red;
 }
 
 .percent:hover {
@@ -150,6 +153,10 @@ ul {
   font-size: 0.8rem;
 }
 
+input:focus{
+  border: red;
+}
+
 /* Forms */
 .forms {
   background-color: var(--custom);
@@ -186,15 +193,8 @@ ul {
   background-image: url(./images/icon-person.svg);
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
 
-.forms:focus {
-  border: red;
-}
+
 
 /* Root */
 :root {
