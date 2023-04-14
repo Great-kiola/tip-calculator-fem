@@ -171,6 +171,17 @@ ul {
   background-image: url(./images/icon-dollar.svg);
 }
 
+.people{
+  display: flex;
+  justify-content: space-between;
+}
+
+.style{
+  margin-right: 25px;
+  color: red;
+  display: none;
+}
+
 #people-input{
   background-image: url(./images/icon-person.svg);
 }

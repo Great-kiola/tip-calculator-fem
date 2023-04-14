@@ -11,6 +11,7 @@ const billInput = document.getElementById("bill-input");
 
 const tips = document.querySelectorAll(".btn");
 
+const error = document.querySelector(".style");
 /* 
 This is the block that all the bill and people inputs
 are declared.
@@ -36,7 +37,16 @@ function billInputFun() {
 
 function peopleInputFun() {
   peopleValue = parseFloat(peopleInput.value);
-  calculateTip();
+  
+
+  if (peopleValue < 1) {
+    error.style.display = "flex";
+    peopleInput.style.border = "3px solid red";
+  } else {
+    error.style.display = "none";
+    peopleInput.style.border = "none";
+    calculateTip();
+  }
 
 }
 
