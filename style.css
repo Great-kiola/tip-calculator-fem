@@ -87,7 +87,7 @@ ul {
   background-color: hsl(185, 41%, 90%);
   color: var(--Darkgrayishcyan);
   text-align: center;
-  padding: 10px auto;
+  padding: 10px;
 }
 
 #custom:focus{
